@@ -3,33 +3,36 @@ body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
 }
-
 .frame{
 	background-color: rgba(0,128,0,0.4);
-	
 	/* put css-rules in this ccs-block here below */
-	
+	width: 620px;
+	height: 700px;
+	margin: 0px auto;
+	padding-top: 20px;
 }
-
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
-	
 	/* put css-rules in this ccs-block here below */
-	
+	margin: 0px auto 30px;
+	padding: 20px 20px;
+	width: 560px;
 }
-
 h2 {
 	line-height: 30px;
-	
 	/* put css-rules in this ccs-block here below */
-	
+	border: 5px solid purple;
+	margin: 5px auto;
+	padding: 5px 20px;
+	width: 550px;
 }
-
 p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
-	
 	/* put css-rules in this ccs-block here below */
+	margin: 10px auto;
+	width: 580px;
+	padding: 10px;
 
 }
